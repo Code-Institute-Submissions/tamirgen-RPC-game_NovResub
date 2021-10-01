@@ -1,3 +1,11 @@
 body {
     background-color: blue;
 }
+.player-hand, .computer-hand {
+    height: 160px;
+}
+
+.hands {
+    justify-content: center;
+    
+}
