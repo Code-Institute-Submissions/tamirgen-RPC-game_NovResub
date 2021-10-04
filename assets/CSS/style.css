@@ -1,11 +1,81 @@
-body {
-    background-color: blue;
-}
-.player-hand, .computer-hand {
-    height: 160px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.hands {
-    justify-content: center;
+.game {
+    height: 100vh;
+    background-color: darkblue;
+    font-family: sans-serif;
+}
+
+.game h1 {
+    text-align: center;
+}
+
+.score {
+    color: darkgray;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score h2 {
+    font-size: 30px;
+}
+
+.score p {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.match {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.computer-hand {
+    height: 100px;
+    margin-bottom: 40px;
+    padding-left: 55px;
     
+    
+}
+
+.player-hand {
+    height: 100px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 55px;
+    
+    
+}
+.options {
+     align-items: center;
+
+}
+
+.match button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    color: darkgray;
+    font-size: 20px;
+    background: darkgreen;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+
+
+.winner {
+    color: darkgray;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 60px;
 }
