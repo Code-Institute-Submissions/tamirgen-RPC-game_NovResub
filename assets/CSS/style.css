@@ -12,10 +12,11 @@
 
 .game h1 {
     text-align: center;
+    color: white;
 }
 /* scroe area */
 .score {
-    color: black;
+    color:white;
     height: 20vh;
     display: flex;
     justify-content: space-around;
@@ -75,7 +76,7 @@
 
 
 .winner {
-    color: black;
+    color:white;
     text-align: center;
     font-size: 40px;
     padding-bottom: 60px;
