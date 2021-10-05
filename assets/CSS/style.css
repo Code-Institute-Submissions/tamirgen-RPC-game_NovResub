@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* top section and main background */
 .game {
     height: 100vh;
     background-color: blue;
@@ -13,7 +13,7 @@
 .game h1 {
     text-align: center;
 }
-
+/* scroe area */
 .score {
     color: black;
     height: 20vh;
@@ -31,7 +31,7 @@
     padding: 10px;
     font-size: 30px;
 }
-
+/* match area */
 .match {
     text-align: center;
     padding-top: 100px;
