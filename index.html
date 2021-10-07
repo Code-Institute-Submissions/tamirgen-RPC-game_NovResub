@@ -16,25 +16,26 @@
         <!--player score div-->
         <div class="player-score">
             <h2>Player</h2>
-            <p>0</p>
+            <p id="playerHandS">0</p>
         </div>
         <!--computer score div-->
         <div class="computer-score">
           <h2>Computer</h2>
-            <p>0</p>
+            <p id="computerHandS">0</p>
         </div>
     </div>
     <!--match area-->
         <div class="match">
             <h2 class="winner">Choose an option</h2>
             <div class="hands">
-                <img class= "player-hand" src="./assets/images/rock.png" alt="rock hand image">
-                <img class= "computer-hand" src="./assets/images/rock.png" alt="rock hand image">
+                <img class="player-hand" src="./assets/images/1.png" alt="rock hand image">
+                <img class="computer-hand" src="./assets/images/1.png" alt="rock hand image">
             </div>
             <div class="options">
-                <button class="rock">rock</button>
-                <button class="paper">paper</button>
-                <button class="scissors">scissors</button>
+
+                <button onclick="gameFun(1);" class="rock">rock</button>
+                <button onclick="gameFun(2);" class="paper">paper</button>
+                <button onclick="gameFun(3);" class="scissors">scissors</button>
 
             </div>
         </div>
