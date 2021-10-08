@@ -13,20 +13,24 @@ function gameFun(_value){
    
     computerHand.src = "./assets/images/" + randomNumber.toString() + ".png";
 
-    if(_value == 1){
+    const ROCK_TYPE = 1;
+    const PAPER_TYPE = 2;
+    const SCISSORS_TYPE = 3;
 
-        if(randomNumber == 2){ computerHandS++;}
-        if(randomNumber == 3){ playerHandS++;}
+    if(_value == ROCK_TYPE){
 
-    }else if(_value == 2){
+        if(randomNumber == PAPER_TYPE){ computerHandS++;}
+        if(randomNumber == SCISSORS_TYPE){ playerHandS++;}
 
-        if(randomNumber == 1){ playerHandS++;}
-        if(randomNumber == 3){ computerHandS++;}
+    }else if(_value == PAPER_TYPE){
 
-    }else if(_value == 3){
+        if(randomNumber == ROCK_TYPE){ playerHandS++;}
+        if(randomNumber == SCISSORS_TYPE){ computerHandS++;}
 
-        if(randomNumber == 1){ computerHandS++;}
-        if(randomNumber == 2){ playerHandS++;}
+    }else if(_value == SCISSORS_TYPE){
+
+        if(randomNumber == ROCK_TYPE){ computerHandS++;}
+        if(randomNumber == PAPER_TYPE){ playerHandS++;}
 
     }
 
