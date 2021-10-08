@@ -7,11 +7,11 @@ function gameFun(_value){
     let playerHand = document.querySelector(".player-hand");
     let computerHand = document.querySelector(".computer-hand");
 
-    playerHand.src = "./assets/images/" + _value.toString() + ".png";
+    playerHand.src = "assets/images/" + _value.toString() + ".png";
 
     let randomNumber = Math.floor(Math.random()*3)+1;
    
-    computerHand.src = "./assets/images/" + randomNumber.toString() + ".png";
+    computerHand.src = "assets/images/" + randomNumber.toString() + ".png";
 
     
        if(_value == 1){
