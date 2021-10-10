@@ -33,6 +33,20 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 ### Footer
 * The footer has a black background color that is different then the rest of the game, so it is easy to see.
 * It explains the rules of the game, so it is an important part of the game.
-![footer](https://github.com/tamirgen/RPC-game/blob/main/assets/media/FOOTER%20RULES-SS.jpg?raw=true)
+![footer](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPS-FOOTER.jpg?raw=true)
+
+### Featurs for the future
+* Add who wins comment above the icons.
+* Add intro to the game before the games page is loaded.
+
+## Testing
+----------
+
+* I have tested the game in different browsers:Chrome, Incognito and Safari.
+* I have tested the game on different surfaces: PC, laptop, mobile.
+* I have made sure the results are always correct.
+* All texts of the game are readable and easy to understand.
+* Colors of background and text are well balanced and easy on the eyes.
+ 
 
 
