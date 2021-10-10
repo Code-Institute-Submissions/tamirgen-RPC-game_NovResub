@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,23 @@
 </head>
 
 <!--Main game area -->
+
 <body>
-<div class="game">
-    <h1>Rock Papaer scissors</h1>
-    <div class="score">
-        <!--player score div-->
-        <div class="player-score">
-            <h2>Player</h2>
-            <p id="playerHandS">0</p>
+    <div class="game">
+        <h1>Rock Papaer scissors</h1>
+        <div class="score">
+            <!--player score div-->
+            <div class="player-score">
+                <h2>Player</h2>
+                <p id="playerHandS">0</p>
+            </div>
+            <!--computer score div-->
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p id="computerHandS">0</p>
+            </div>
         </div>
-        <!--computer score div-->
-        <div class="computer-score">
-          <h2>Computer</h2>
-            <p id="computerHandS">0</p>
-        </div>
-    </div>
-    <!--match area-->
+        <!--match area-->
         <div class="match">
             <h2 class="winner">Choose an option</h2>
             <div class="hands">
@@ -39,11 +41,13 @@
 
             </div>
         </div>
-</div>
- <script src="./assets/js/script.js"></script>  
+    </div>
+    <script src="./assets/js/script.js"></script>
+
+    <footer>
+        <h3>The rules of the game:</h3>
+        <p>Rock bits Scissors | Scissors bits Paper | Paper bits Rock</p>
+    </footer>
 </body>
-<footer>
-    <h3>The rules of the game:</h3>
-    <p>Rock bits Scissors | Scissors bits Paper | Paper bits Rock</p>
-</footer>
+
 </html>
