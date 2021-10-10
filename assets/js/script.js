@@ -1,4 +1,8 @@
-
+/**The code consist of one fuction
+ * It takes the image and convert it to a number.
+ * After player select option, it throws a random number and it converts to an image on the computer side.
+ * The final part of the function is to calculate who is the winner and to update the score area. 
+ */
 function gameFun(_value){
 
     let playerHandS = parseInt(document.querySelector("#playerHandS").textContent);
@@ -12,7 +16,12 @@ function gameFun(_value){
     let randomNumber = Math.floor(Math.random()*3)+1;
    
     computerHand.src = "assets/images/" + randomNumber.toString() + ".png";
-
+/**
+ * The image are numbered
+ * 1 = rock
+ * 2 = paper
+ * 3 = scissors
+ */
     
        if(_value == 1){
 

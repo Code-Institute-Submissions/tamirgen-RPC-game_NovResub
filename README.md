@@ -5,7 +5,7 @@ Rock paper and scissors is a fun game that was designed to help you
 
 The website URL is: https://tamirgen.github.io/RPC-game/
 
-![Responsice Mockup](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPC-AMI-PREVIEW.jpg?raw=true)
+![Responsice Mockup](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPC-AMI-PREVIEW1.jpg?raw=true)
 
 ## Features
 -----------
@@ -41,12 +41,56 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ## Testing
 ----------
+<br>
+### General
 
 * I have tested the game in different browsers:Chrome, Incognito and Safari.
 * I have tested the game on different surfaces: PC, laptop, mobile.
 * I have made sure the results are always correct.
 * All texts of the game are readable and easy to understand.
 * Colors of background and text are well balanced and easy on the eyes.
+![lighthouse](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPS-LIGHTHOUSE.jpg?raw=true)
+* The project passed the lighthouse test in terms of performance and accessibility.
+
+### Bugs
+
+* When I deployed the project to GitHub page the image links were broken, as I used absolute file paths.
+* I removed the ./ and the issue was solved
+
+
+### Validetor testing
+
+* HTML
+no errors found when tested the official 
+[W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftamirgen.github.io%2FRPC-game%2Findex.html).
+* CSS
+No errors were found when passing through the official
+[(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftamirgen.github.io%2FWelding-Classes%2Fassests%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+## Unfixed Bugs
+* There are no unfixed bugs in the project.
+
+### Deployment
+<br>
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Scrol down to the GitHub Pages section and click on the link to open the deployment page
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+### Credits
+
+## Content
+  * The Java Script code was inspired by a few Youtube tutorilas.
+
+  ## Media
+  * Icons used to create the options were taken from [kindpng.com](https://www.kindpng.com/free/emoji-hands/).
+
+
+
  
+
+
 
 
