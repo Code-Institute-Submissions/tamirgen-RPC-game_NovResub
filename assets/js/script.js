@@ -17,7 +17,7 @@ function gameFun(_value){
    
     computerHand.src = "assets/images/" + randomNumber.toString() + ".png";
 /**
- * The image are numbered
+ * The images are numbered from 1-3
  * 1 = rock
  * 2 = paper
  * 3 = scissors

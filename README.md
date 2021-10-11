@@ -42,6 +42,7 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 ## Testing
 ----------
 <br>
+
 ### General
 
 * I have tested the game in different browsers:Chrome, Incognito and Safari.
