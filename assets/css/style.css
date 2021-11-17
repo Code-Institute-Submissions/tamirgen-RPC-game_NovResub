@@ -5,8 +5,9 @@
 }
 
 body {
-    position: relative;
+    position: static;
 }
+
 /* top section and main background */
 .game {
     height: 100vh;
@@ -86,12 +87,12 @@ body {
     padding-bottom: 60px;
 }
 
-footer {
+.rules {
     background-color: black;
     color: white;
     text-align: center;
     width: 100%;
-    position: absolute;
-    bottom: 0;
     height: 2.5rem;  
+    position: relative;
+    padding-bottom: 10px;
 }
