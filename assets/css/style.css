@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    position: relative;
+}
 /* top section and main background */
 .game {
     height: 100vh;
@@ -86,6 +90,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding-bottom: 4px;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;  
 }

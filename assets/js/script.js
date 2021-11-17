@@ -25,8 +25,8 @@ function gameFun(_value){
     
        if(_value == 1){
 
-        if(randomNumber == 2){ computerHandS++;}
-        if(randomNumber == 3){ playerHandS++;}
+            if(randomNumber == 2){ computerHandS++;}
+            if(randomNumber == 3){ playerHandS++;}
 
     }else if(_value == 2){
 
@@ -37,7 +37,6 @@ function gameFun(_value){
 
         if(randomNumber == 1){ computerHandS++;}
         if(randomNumber == 2){ playerHandS++;}
-
     }
 
     document.querySelector("#playerHandS").innerHTML = playerHandS;
