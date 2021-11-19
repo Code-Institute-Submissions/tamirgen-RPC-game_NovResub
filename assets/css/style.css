@@ -1,14 +1,18 @@
+/* Golbal style */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
     position: static;
 }
 
-/* top section and main background */
+/* Top section and background */
+
 .game {
     height: 100vh;
     background-color: blue;
@@ -19,7 +23,9 @@ body {
     text-align: center;
     color: white;
 }
-/* scroe area */
+
+/* Scroe area */
+
 .score {
     color:white;
     height: 20vh;
@@ -37,19 +43,18 @@ body {
     padding: 10px;
     font-size: 30px;
 }
-/* match area */
+
+/* Match area */
+
 .match {
     text-align: center;
     padding-top: 100px;
-
 }
 
 .computer-hand {
     height: 100px;
     margin-bottom: 40px;
     padding-left: 55px;
-    
-    
 }
 
 .player-hand {
@@ -57,13 +62,13 @@ body {
     align-items: center;
     margin-bottom: 40px;
     padding-right: 55px;
-    
-    
 }
+
 .options {
      align-items: center;
-
 }
+
+/* Buttons */
 
 .match button {
     width: 150px;
@@ -74,11 +79,7 @@ body {
     background: darkgreen;
     border-radius: 3px;
     cursor: pointer;
-    
-    
 }
-
-
 
 .winner {
     color:white;
@@ -86,6 +87,8 @@ body {
     font-size: 40px;
     padding-bottom: 60px;
 }
+
+/* game rules on the top of the page */
 
 .rules {
     background-color: black;
