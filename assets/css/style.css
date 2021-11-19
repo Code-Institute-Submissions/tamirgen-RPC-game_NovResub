@@ -99,3 +99,10 @@ body {
     position: relative;
     padding-bottom: 10px;
 }
+
+/* adjust thr rules paragraph to be in a single line */
+
+@media (max-width: 414px) {
+    .rules p {
+       font-size: small;
+    }
