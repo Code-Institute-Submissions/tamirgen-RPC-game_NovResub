@@ -106,3 +106,8 @@ body {
     .rules p {
        font-size: small;
     }
+
+@media (max-width: 320px) {
+     .rules p {
+       font-size: x-small;
+    }
