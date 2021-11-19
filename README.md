@@ -46,13 +46,15 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ### General
 
-* I have tested the game in different browsers:Chrome, Incognito and Safari.
+* I have tested the game in different browsers: Chrome, Incognito mode, and Safari.
 * I have tested the game on different surfaces: PC, laptop, mobile.
-* I have made sure the results are always correct.
-* All texts of the game are readable and easy to understand.
+* I confirmed that the results are always correct.
+* I confirmed that the colors and fonts chosen for the game are readable and easy to understand.
 * Colors of background and text are well balanced and easy on the eyes.
+* The game rules are at the top of the page, and background is black to highlight them.
+* The project passed the lighthouse test in terms of performance and 
 ![lighthouse](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPS-LIGHTHOUSE.jpg?raw=true)
-* The project passed the lighthouse test in terms of performance and accessibility.
+* I confirmed that the project is responsive, looks good, and functions on all screen sizes using the     devtools devised toolbar.
 
 ### Bugs
 
