@@ -26,17 +26,17 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ### The Game Results
 
-* When a user click on a button and choose an option, it will show on the player side.
-* The java script code will choose a random option for the computer, and the score will update in the results section.
+* When a user clicks on a button and chooses an option, it will show on the player side.
+* The javascript code will choose a random option for the computer, and the score will update in the results section.
 * The results are clear and provide the user a clear view of who is leading in the game.
 ![game results](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME%20RESOULTS-SS.jpg?raw=true)
 
-### Footer
-* The footer has a black background color that is different then the rest of the game, so it is easy to see.
+### The games ruls
+* The rules have a black background color that is different than the rest of the game, so it is easy to see and is located at the top of the page.
 * It explains the rules of the game, so it is an important part of the game.
-![footer](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPS-FOOTER.jpg?raw=true)
+![the rules of the game](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME-RULES.jpg?raw=true)
 
-### Featurs for the future
+### Features for the future
 * Add who wins comment above the icons.
 * Add intro to the game before the games page is loaded.
 
@@ -57,34 +57,39 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 ### Bugs
 
 * When I deployed the project to GitHub page the image links were broken, as I used absolute file paths.
-* I removed the ./ and the issue was solved
+* I removed the ./ and the issue was solved.
 
 
 ### Validetor testing
 
 * HTML
-no errors found when tested the official 
+No errors were found when testing the official 
 [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftamirgen.github.io%2FRPC-game%2Findex.html).
 * CSS
 No errors were found when passing through the official
 [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftamirgen.github.io%2FWelding-Classes%2Fassests%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ## Unfixed Bugs
+
 * There are no unfixed bugs in the project.
 
 ### Deployment
 <br>
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - Scrol down to the GitHub Pages section and click on the link to open the deployment page
-  - From the source section drop-down menu, select the Master Branch
+  - In the GitHub repository, navigate to the Settings tab.
+  - Scroll down to the GitHub Pages section and click on the link to open the deployment page.
+  - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 ### Credits
 
-## Content
-  * The Java Script code was inspired by a few Youtube tutorilas.
+  ## Content
+  * The JavaScript code was inspired by a few Youtube tutorials. I ended up writing a much simpler code that is very different from the ones on the tutorials, but I have to give credit to those two:
+      
+      [YouTube tutorial](https://www.youtube.com/watch?v=C2_z34QFVjw)
+           <br>
+      [YouTube tutorial](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
 
   ## Media
   * Icons used to create the options were taken from [kindpng.com](https://www.kindpng.com/free/emoji-hands/).
