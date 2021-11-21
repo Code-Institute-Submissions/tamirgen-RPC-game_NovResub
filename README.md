@@ -31,6 +31,16 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 * The results are clear and provide the user a clear view of who is leading in the game.
 ![game results](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME%20RESOULTS-SS.jpg?raw=true)
 
+### The result statement
+
+* After each round the game is provides a statement of the game result:
+  * If the player wins, the statement is: "You win! well done".
+  * If the computer wins, the statement is: "Computer wins!".
+  * If there is a draw, the statement is: "It's a draw...".
+  ![results statements](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPC-GANE-RESULT%20STATEMENT.jpg?raw=true)
+
+ 
+
 ### The games ruls
 * The rules have a black background color that is different than the rest of the game, so it is easy to see and is located at the top of the page.
 * It explains the rules of the game, so it is an important part of the game.
