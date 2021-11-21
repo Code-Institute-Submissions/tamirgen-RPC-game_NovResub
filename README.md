@@ -31,7 +31,7 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 * The results are clear and provide the user a clear view of who is leading in the game.
 ![game results](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME%20RESOULTS-SS.jpg?raw=true)
 
-### The result statement
+### The game result statements
 
 * After each round the game is provides a statement of the game result:
   * If the player wins, the statement is: "You win! well done".
@@ -41,7 +41,7 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
  
 
-### The games ruls
+### The games rules
 * The rules have a black background color that is different than the rest of the game, so it is easy to see and is located at the top of the page.
 * It explains the rules of the game, so it is an important part of the game.
 ![the rules of the game](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME-RULES.jpg?raw=true)
@@ -61,10 +61,10 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 * I confirmed that the results are always correct.
 * I confirmed that the colors and fonts chosen for the game are readable and easy to understand.
 * Colors of background and text are well balanced and easy on the eyes.
-* The game rules are at the top of the page, and background is black to highlight them.
+* The game rules are at the top of the page, and the background is black to highlight them.
 * The project passed the lighthouse test in terms of performance and 
 ![lighthouse](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPS-LIGHTHOUSE.jpg?raw=true)
-* I confirmed that the project is responsive, looks good, and functions on all screen sizes using the     devtools devised toolbar.
+* I confirmed that the project is responsive, looks good, and functions on all screen sizes using the devtools device toolbar.
 
 ### Bugs
 
