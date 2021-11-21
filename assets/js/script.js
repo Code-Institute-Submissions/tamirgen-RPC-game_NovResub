@@ -6,6 +6,10 @@
  */
 function gameFun(_value){
 
+    const msg = (_msg) => {
+        document.getElementById('massage').innerHTML = _msg;
+    }
+
     let playerHandS = parseInt(document.querySelector("#playerHandS").textContent);
     let computerHandS = parseInt(document.querySelector("#computerHandS").textContent);
     
@@ -30,8 +34,8 @@ function gameFun(_value){
      */  
     if(_value == 1){
 
-        if(randomNumber == 2){ computerHandS++;}
-        if(randomNumber == 3){ playerHandS++;}
+        if(randomNumber == 2){ computerHandS++; msg("Computer wins!");}
+        if(randomNumber == 3){ playerHandS++; msg("You win! well done");}
                 
  /** 
      * The if statement here checks the scenario of "paper"
@@ -40,8 +44,8 @@ function gameFun(_value){
      */ 
     }else if(_value == 2){
 
-        if(randomNumber == 1){ playerHandS++;}
-        if(randomNumber == 3){ computerHandS++;}
+        if(randomNumber == 1){ playerHandS++; msg("You win! well done");}
+        if(randomNumber == 3){ computerHandS++; msg("Computer wins!");}
  /** 
      * The if statement here checks the scenario of "scissors"
      * If the random number is equal to 1, the computer wins
@@ -49,9 +53,10 @@ function gameFun(_value){
      */ 
     }else if(_value == 3){
 
-        if(randomNumber == 1){ computerHandS++;}
-        if(randomNumber == 2){ playerHandS++;}
+        if(randomNumber == 1){ computerHandS++;msg("Computer wins!");}
+        if(randomNumber == 2){ playerHandS++; msg("You win! well done");}
     }
+    else{msg("It's a draw...");}
 
     document.querySelector("#playerHandS").innerHTML = playerHandS;
     document.querySelector("#computerHandS").innerHTML = computerHandS;
