@@ -36,6 +36,7 @@ function gameFun(_value){
 
         if(randomNumber == 2){ computerHandS++; msg("Computer wins!");}
         if(randomNumber == 3){ playerHandS++; msg("You win! well done");}
+        if(randomNumber == 1){msg("It's a draw...");} 
                 
  /** 
      * The if statement here checks the scenario of "paper"
@@ -46,6 +47,8 @@ function gameFun(_value){
 
         if(randomNumber == 1){ playerHandS++; msg("You win! well done");}
         if(randomNumber == 3){ computerHandS++; msg("Computer wins!");}
+        if(randomNumber == 2){msg("It's a draw...");} 
+
  /** 
      * The if statement here checks the scenario of "scissors"
      * If the random number is equal to 1, the computer wins
@@ -55,8 +58,10 @@ function gameFun(_value){
 
         if(randomNumber == 1){ computerHandS++;msg("Computer wins!");}
         if(randomNumber == 2){ playerHandS++; msg("You win! well done");}
+        if(randomNumber == 3){msg("It's a draw...");} 
+
+
     }
-    else{msg("It's a draw...");}
 
     document.querySelector("#playerHandS").innerHTML = playerHandS;
     document.querySelector("#computerHandS").innerHTML = computerHandS;

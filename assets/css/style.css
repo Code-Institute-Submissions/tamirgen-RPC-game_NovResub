@@ -68,6 +68,10 @@ body {
      align-items: center;
 }
 
+#massage {
+    color: black;
+}
+
 /* Buttons */
 
 .match button {
@@ -85,7 +89,7 @@ body {
     color:white;
     text-align: center;
     font-size: 40px;
-    padding-bottom: 60px;
+    padding-bottom:10px;
 }
 
 /* game rules on the top of the page */
@@ -106,8 +110,11 @@ body {
     .rules p {
        font-size: small;
     }
+}
+
 
 @media (max-width: 320px) {
      .rules p {
        font-size: x-small;
     }
+}    
