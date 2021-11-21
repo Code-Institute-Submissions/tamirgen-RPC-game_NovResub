@@ -31,6 +31,7 @@ function gameFun(_value){
      * The if statement here checks the scenario of "rock"
      * If the random number is equal to 2, the computer wins
      * If the random number is equal to 3, the player wins
+     * If the random number is equal to 1, it's a draw
      */  
     if(_value == 1){
 
@@ -42,6 +43,7 @@ function gameFun(_value){
      * The if statement here checks the scenario of "paper"
      * If the random number is equal to 3, the computer wins
      * If the random number is equal to 1, the player wins
+     * If the random number is equal to 2, it's a draw
      */ 
     }else if(_value == 2){
 
@@ -53,6 +55,7 @@ function gameFun(_value){
      * The if statement here checks the scenario of "scissors"
      * If the random number is equal to 1, the computer wins
      * If the random number is equal to 2, the player wins
+     * If the random number is equal to 3, it's a draw
      */ 
     }else if(_value == 3){
 
