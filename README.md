@@ -1,7 +1,7 @@
-# Rock Paper and Scissors game
+# Rock, Paper and Scissors game
 ------------------------------
 
-Rock paper and scissors is a fun game that was designed to help young and adult users to play against a computer and relax. It is purely a game of luck that was designed to see if you can bit the computer while enjoying a fair play. The rules of the game are very simple and the player can get the hang of it in a few moments as it is based on the rock biting scissors, scissors biting paper, and paper biting rock. Trying to bit the computer can trigger the planning of moves and predict the opponent's next move. It should be quick but thoughtful.
+Rock, paper and scissors is a fun game that was designed to help users to play against the computer and relax. It is purely a game of luck that was designed to see if you can bit the computer while enjoying a fair play. The rules of the game are very simple and the player can get the hang of it in a few moments as it is based on the rock biting scissors, scissors biting paper, and paper biting rock. Trying to bit the computer can trigger the planning of moves and predict the opponent's next move. It should be quick but thoughtful.
 
 
 The website URL is: https://tamirgen.github.io/RPC-game/
@@ -15,7 +15,7 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 ### Header
 
 * The header provides the title of the game.
-* Located at the top of the page saying: Rock Paper Scissors.
+* Located at the top of the page saying: Rock, Paper Scissors.
 ![header](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPC-HEADER-SS.jpg?raw=true)
 
 ### The Game Options
@@ -26,29 +26,28 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ### The Game Results
 
-* When a user clicks on a button and chooses an option, it will show on the player side.
-* The javascript code will choose a random option for the computer, and the score will update in the results section.
-* The results are clear and provide the user a clear view of who is leading in the game.
+* When a user clicks on a button and chooses an option, it will show on the player's side.
+* The JavaScript code will choose a random option for the computer, and the score will update in the results section.
+* The results are clear and provide the user a with a summery view of who is leading in the game.
 ![game results](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME%20RESOULTS-SS.jpg?raw=true)
 
 ### The game result statements
 
-* After each round the game is provides a statement of the game result:
-  * If the player wins, the statement is: "You win! well done".
-  * If the computer wins, the statement is: "Computer wins!".
-  * If there is a draw, the statement is: "It's a draw...".
+* After each round the game provides a statement of the game result:
+  * In case the player wins, the statement is: "You win! well done".
+  * In case the computer wins, the statement is: "Computer wins!".
+  * In case there is a draw, the statement is: "It's a draw...".
   ![results statements](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPC-GANE-RESULT%20STATEMENT.jpg?raw=true)
 
- 
-
 ### The games rules
-* The rules have a black background color that is different than the rest of the game, so it is easy to see and is located at the top of the page.
+
+* The rules are on a black background which is different from the rest of the game, so it is easy to see and is located at the top of the page.
 * It explains the rules of the game, so it is an important part of the game.
 ![the rules of the game](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME-RULES.jpg?raw=true)
 
 ### Features for the future
-* Add who wins comment above the icons.
-* Add intro to the game before the games page is loaded.
+
+* To add intro to the game before the games page is loaded.
 
 ## Testing
 ----------
@@ -56,14 +55,14 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ### General
 
-* I have tested the game in different browsers: Chrome, Incognito mode, and Safari.
+* I have tested the game on different browsers: Chrome, Incognito mode, and Safari.
 * I have tested the game on different surfaces: PC, laptop, mobile.
 * I confirmed that the results are always correct.
 * I confirmed that the colors and fonts chosen for the game are readable and easy to understand.
-* Colors of background and text are well balanced and easy on the eyes.
+* The background and text colors are well balanced and easy on the eyes.
 * The game rules are at the top of the page, and the background is black to highlight them.
-* The project passed the lighthouse test in terms of performance and 
-![lighthouse](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPS-LIGHTHOUSE.jpg?raw=true)
+* The project passed the lighthouse test in terms of performance and accessibility
+![lighthouse](https://github.com/tamirgen/RPC-game/blob/main/assets/media/RPC-LIGHTHOUSE.jpg?raw=true)
 * I confirmed that the project is responsive, looks good, and functions on all screen sizes using the devtools device toolbar.
 
 ### Bugs
@@ -88,7 +87,7 @@ No errors were found when passing through the official
 ### Deployment
 <br>
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- The site was deployed to GitHub pages. The steps to deploy are as following: 
   - In the GitHub repository, navigate to the Settings tab.
   - Scroll down to the GitHub Pages section and click on the link to open the deployment page.
   - From the source section drop-down menu, select the Master Branch.
@@ -97,7 +96,7 @@ No errors were found when passing through the official
 ### Credits
 
   ## Content
-  * The JavaScript code was inspired by a few Youtube tutorials. I ended up writing a much simpler code that is very different from the ones on the tutorials, but I have to give credit to those two:
+  * The JavaScript code was inspired by a few Youtube tutorials. I ended up writing a much simpler code that is very different from the those in the tutorials, but I have to give credit to those two:
       
       [YouTube tutorial](https://www.youtube.com/watch?v=C2_z34QFVjw)
            <br>
