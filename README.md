@@ -20,7 +20,7 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ### The Game Options
 
-* * The game options are intuitive and contain three green buttons with the "rock", "paper" and "scissors" options on them.
+* The game options are intuitive and contain three green buttons with the "rock", "paper" and "scissors" options on them.
 * The buttons are clickable and will trigger the user's choice.
 ![game options](https://github.com/tamirgen/RPC-game/blob/main/assets/media/GAME%20OPTIONS-SS.jpg?raw=true)
 
@@ -33,7 +33,7 @@ The website URL is: https://tamirgen.github.io/RPC-game/
 
 ### The game result statements
 
-* After each round the game provides a statement of the game result:
+  * After each round the game provides a statement of the game result:
   * In case the player wins, the statement is: "You win! well done".
   * In case the computer wins, the statement is: "Computer wins!".
   * In case there is a draw, the statement is: "It's a draw...".
@@ -97,6 +97,7 @@ No errors were found when passing through the official
 ## Credits
 ----------
 <br>
+
   ### Content
   * The JavaScript code was inspired by a few Youtube tutorials. I ended up writing a much simpler code that is very different from the those in the tutorials, but I have to give credit to those two:
       
