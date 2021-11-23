@@ -4,7 +4,9 @@
  * After player select option, it throws a random number and it converts to an image on the computer side
  * The final part of the function is to calculate who is the winner and to update the score area
  */
+
 function gameFun(_value){
+/* This function creates the massage at the end of each round */
 
     const msg = (_msg) => {
         document.getElementById('massage').innerHTML = _msg;
@@ -21,6 +23,7 @@ function gameFun(_value){
     let randomNumber = Math.floor(Math.random()*3)+1;
    
     computerHand.src = "assets/images/" + randomNumber.toString() + ".png";
+
 /**
  * The images are numbered from 1-3
  * 1 = rock
@@ -33,6 +36,7 @@ function gameFun(_value){
      * If the random number is equal to 3, the player wins
      * If the random number is equal to 1, it's a draw
      */  
+
     if(_value == 1){
 
         if(randomNumber == 2){ computerHandS++; msg("Computer wins!");}
@@ -45,6 +49,7 @@ function gameFun(_value){
      * If the random number is equal to 1, the player wins
      * If the random number is equal to 2, it's a draw
      */ 
+
     }else if(_value == 2){
 
         if(randomNumber == 1){ playerHandS++; msg("You win! well done");}
@@ -57,6 +62,7 @@ function gameFun(_value){
      * If the random number is equal to 2, the player wins
      * If the random number is equal to 3, it's a draw
      */ 
+     
     }else if(_value == 3){
 
         if(randomNumber == 1){ computerHandS++;msg("Computer wins!");}

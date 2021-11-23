@@ -92,7 +92,7 @@ body {
     padding-bottom:10px;
 }
 
-/* game rules on the top of the page */
+/* Game rules at the top of the page */
 
 .rules {
     background-color: black;
@@ -104,7 +104,7 @@ body {
     padding-bottom: 10px;
 }
 
-/* adjust thr rules paragraph to be in a single line */
+/* Adjust the rules paragraph to be in a single line */
 
 @media (max-width: 414px) {
     .rules p {

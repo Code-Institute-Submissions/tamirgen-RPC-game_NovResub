@@ -80,11 +80,12 @@ No errors were found when testing the official
 No errors were found when passing through the official
 [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftamirgen.github.io%2FWelding-Classes%2Fassests%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-## Unfixed Bugs
+### Unfixed Bugs
 
 * There are no unfixed bugs in the project.
 
-### Deployment
+## Deployment
+-------------
 <br>
 
 - The site was deployed to GitHub pages. The steps to deploy are as following: 
@@ -93,16 +94,17 @@ No errors were found when passing through the official
   - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-### Credits
-
-  ## Content
+## Credits
+----------
+<br>
+  ### Content
   * The JavaScript code was inspired by a few Youtube tutorials. I ended up writing a much simpler code that is very different from the those in the tutorials, but I have to give credit to those two:
       
       [YouTube tutorial](https://www.youtube.com/watch?v=C2_z34QFVjw)
            <br>
       [YouTube tutorial](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
 
-  ## Media
+  ### Media
   * Icons used to create the options were taken from [kindpng.com](https://www.kindpng.com/free/emoji-hands/).
 
 
